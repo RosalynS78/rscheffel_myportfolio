@@ -7,10 +7,10 @@ body {
     margin: auto;
   }
   .logo {
-    width: 250px;
-    height: 250px;
-    margin: 15% 120%;
-    padding: 10px;
+    width: 240px;
+    height: 240px;
+    margin: 50% 100%;
+    padding: 15px;
  
   }
   header {
@@ -38,11 +38,11 @@ body {
     border: 3px groove orange;
   }
   .has-border {
-    border-radius: 50px;
-    border: 3px solid #045e7c;
+    border-radius: 20px;
+    border: 2px solid #045e7c;
     background: none;
-    padding: 20px;
-    margin-top: 5%;
+    padding: 10px;
+    margin-top: 15%;
   }
 
   nav {
