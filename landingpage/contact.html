@@ -1,97 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-<!-- css -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <!-- css -->
   <link rel="stylesheet" href="./contact-style.css">
   <!-- js -->
   <script src="contact-scripts.js"></script>
-  
+
   <title>Document</title>
 </head>
+
 <body>
   <div class="container">
     <div class="main">
       <h1>Contact Me</h1>
-    
-  </div>
-  <div class="form">
 
-  <table class="tb" id="info">
-    <tr>
-      <td>
-    <form action="results.html" method="GET" enctype="multipart/form-data">
-    <div>
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" required>
     </div>
-  </td>
-  <td>
-    <div>
-      <label for="date">Give your birthdate to wish you a "Happy Birthday"</label>
-      <input type="date" name="date" id="date">
+    <div class="form">
+
+      <table class="tb" id="info">
+        <tr>
+          <td>
+            <form action="results.html" method="GET" enctype="multipart/form-data">
+              <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+              </div>
+          </td>
+          <td>
+            <div>
+              <label for="date">Give your birthdate to wish you a "Happy Birthday"</label>
+              <input type="date" name="date" id="date">
+            </div>
+          </td>
+        <tr>
+          <td>
+            <div>
+              "How did you hear about me?"
+              <div>
+                <label for="classmate">Classmate</label>
+                <input type="checkbox" name="how" id="classmate" value="classmate">
+              </div>
+              <div>
+                <label for="resume">Resume Submission</label>
+                <input type="checkbox" name="how" id="resume" value="resume">
+              </div>
+              <div>
+                <label for="linkedin">LinkedIn</label>
+                <input type="checkbox" name="how" id="linkedin" value="linkedin">
+              </div>
+              <div>
+                <label for="academy">Coding Academy Rec</label>
+                <input type="checkbox" name="how" id="academy" value="academy">
+              </div>
+          </td>
+          <td>
+            <div>
+              Would you like to be contacted back?
+              <div>
+                <label for="yes">Yes</label>
+                <input type="radio" name="contacted" id="yes" value="yes">
+              </div>
+              <div>
+                <label for="no">No</label>
+                <input type="radio" name="contacted" id="no" value="no">
+              </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="typehere">Type Here</label>
+            <textarea id="typehere" name="typehere" placeholder="comments" min="20" max="500" required></textarea>
     </div>
-  </td>
-  <tr>
-    <td>
-    <div>
-      "How did you hear about me?"
-      <div>
-        <label for="classmate">Classmate</label>
-        <input type="checkbox" name="how" id="classmate" value="classmate">
-      </div>
-      <div>
-        <label for="resume">Resume Submission</label>
-        <input type="checkbox" name="how" id="resume" value="resume">
-      </div>
-      <div>
-        <label for="linkedin">LinkedIn</label>
-        <input type="checkbox" name="how" id="linkedin" value="linkedin">
-      </div>
-      <div>
-        <label for="academy">Coding Academy Rec</label>
-        <input type="checkbox" name="how" id="academy" value="academy">
-      </div>
     </td>
     <td>
-    <div>
-      Would you like to be contacted back?
-      <div>
-        <label for="yes">Yes</label>
-        <input type="radio" name="contacted" id="yes" value="yes">
-      </div>
-      <div>
-        <label for="no">No</label>
-        <input type="radio" name="contacted" id="no" value="no">
-      </div>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+      <br>
+      <p>minimize window to smallest for a surprise!</p>
+      </form>
     </td>
     </tr>
-    <tr>
-      <td>
-      <label for="typehere">Type Here</label>
-      <textarea id="typehere" name="typehere" placeholder="comments" min="20" max="500" required></textarea>
-    </div>
-    </td>
-    <td>
-    <button type="reset">Reset</button>
-    <button type="submit">Submit</button>
-    <br>
-    <p>minimize window to smallest for a surprise!</p>
-  </form>
-  </td>
-  </tr>
-</table>
-</div>
+    </table>
+  </div>
 
-<div class="ya">
-<img src="yay.gif">
-</div>
+  <div class="ya">
+    <img src="yay.gif">
+  </div>
 
   <!-- <script src="scripts.js"></script> -->
 </body>
+
 </html>
