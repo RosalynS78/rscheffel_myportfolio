@@ -91,8 +91,9 @@ body {
     display: flex;
     align-content: left;
     padding-top: 90px;
-    padding-left: 180px;
+    padding-left: 150px;
     height: 100px;
+    width: 100px;
   }
 }
 
