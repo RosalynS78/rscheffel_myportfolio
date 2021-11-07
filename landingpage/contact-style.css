@@ -1,3 +1,8 @@
+body {
+  
+  background-image: url("contactbg.jpg");
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -12,31 +17,32 @@
 
 
 .main {
-  background-image: url("contactbg.jpg");
-  opacity: 0.6;
+  
+  
   display: grid;
   align-items: center;
   text-align: center;
   grid-area: main;
   font-size: 45px;
-  padding-bottom: 10%;
-  margin-bottom: 2%;
-
+  padding-bottom: 2%;
+  margin-top: 3%;
 }
 
 .form {
   display: flex;
   justify-content: center;
   grid-area: form;
+  height: 220px;
 }
 
 .tb {
-  width: 600px;
-  height: 300px;
+  
+  
   padding-top: auto;
   display: grid;
   text-align: center;
   border-style: solid;
+  background-color: honeydew;
 }
 
 .ya {
@@ -54,21 +60,38 @@
 
   .main {
     display: flex;
+    flex-direction: column;
+   
+  }
+  .slides {
+    display: none;
+  }
+  .centered {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    padding-bottom: 300px;
+    padding-left: 75px;
+   
   }
 
   .form {
     display: flex;
-    padding-left: 40px;
-    justify-content: center;
-    align-content: center;
-    max-width: 400px;
+  }
+  .tb {
+    height: 350px;
+    margin-right: 68px;
+    margin-bottom: 30px;
+    display: flex;
+   
+    
   }
 
   .ya {
     display: flex;
     align-content: left;
-    padding-left: 50px;
+    padding-top: 110px;
+    padding-left: 140px;
     height: 150px;
   }
 }
@@ -88,11 +111,15 @@
   }
 
   .form {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-
-
+    display: block;
+    
+   
+  }
+  .tb {
+    display: block;
+    height: 300px;
+    
+    
   }
 
 }
