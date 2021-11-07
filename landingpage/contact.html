@@ -14,18 +14,22 @@
   <script src="contact-scripts.js"></script>
   <!-- slides -->
   <style>
-  .centered {
- 
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Abril Fatface', cursive;
-  font-size: 60px;
-  text-shadow: 2px 2px black;
- color: aliceblue;}
-    .mslideshow {display:none;}
-    </style>
+    .centered {
+
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Abril Fatface', cursive;
+      font-size: 60px;
+      text-shadow: 2px 2px black;
+      color: aliceblue;
+    }
+
+    .mslideshow {
+      display: none;
+    }
+  </style>
 
   <title>contactpage</title>
 </head>
@@ -44,21 +48,24 @@
         <div class="mslideshow"><img src="pic6.jpg" width="800px" height="500px"></div>
       </div>
       <!-- slide script -->
-      <script>      var myIndex = 0;
+      <script>
+        var myIndex = 0;
         carousel();
-        
+
         function carousel() {
           var i;
           var x = document.getElementsByClassName("mslideshow");
           for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
+            x[i].style.display = "none";
           }
           myIndex++;
-          if (myIndex > x.length) {myIndex = 1}    
-          x[myIndex-1].style.display = "block";  
+          if (myIndex > x.length) {
+            myIndex = 1
+          }
+          x[myIndex - 1].style.display = "block";
           setTimeout(carousel, 2000); // Change image every 2 seconds
         }
-        </script>
+      </script>
     </div>
     <div class="form">
 
@@ -120,13 +127,13 @@
     <td>
       <button type="reset">Reset</button>
       <button type="submit">Submit</button>
-      
+
       </form>
     </td>
     </tr>
     </table>
   </div>
-  
+
 
   <div class="ya">
     <img src="yay.gif">
